@@ -8,7 +8,7 @@ export default function Project() {
             {
                 image: louis,
                 description: "Ecommerce Website. Built With Html and Css only.",
-                link: ""
+                link: "https://github.com/SelvaSundar01/luois-vuitton-clone-ecommerce"
             },
             {
                 image: ice,
@@ -18,7 +18,7 @@ export default function Project() {
             {
                 image: bus,
                 description: "Basic Bus Ticket Booking.Built With Python using Pycharm",
-                link: ""
+                link: "https://github.com/SelvaSundar01/Python-Project"
             }
         ]
     }
@@ -31,11 +31,11 @@ export default function Project() {
         <div className="w-full py-4">
             <div className="flex flex-col px-10 justify-around md:flex-row gap-6 ">
                 {config.projects.map((project) => (
-                    <div className="relative ml-16">
+                    <div className="relative ml-12 md:ml-14">
                         <img className="w-[350px] md:h-[220px] md:w-[350px] border-2 border-gray-800 rounded " src={project.image} />
                         <div className="project-desc right-0">
-                            <p className="text-center  text-black font-semibold  py-10">{project.description}</p>                    
-                                <a className="btn"  target="_blank" href={project.link} >View More</a>
+                            <p className="text-center  text-black font-semibold hidden md:block  md:py-10 ">{project.description}</p>                    
+                                <a className="p-2 border-2 border-gray-950 rounded hover:bg-yellow-500 text-white "  target="_blank" href={project.link} >View More</a>
                         </div>
 
                     </div>

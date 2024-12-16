@@ -58,7 +58,7 @@ export default function Contact() {
                 <ul className="py-4 ">
                     <li className="text-yellow-600 underline underline-offset-4 -tracking-tighter "><a href="#">⮞HOME</a></li>
                     <li className='hover:underline hover:decoration-yellow-600 underline-offset-4 -tracking-tighter  text-gray-600 py-2'><a href="#about">⮞ABOUT</a></li>
-                    <li className='hover:underline  hover:decoration-yellow-600 underline-offset-4 -tracking-tighter  text-gray-600'><a href="#skill">⮞SKILLS</a></li>
+                    <li className='hover:underline  hover:decoration-yellow-600 underline-offset-4 -tracking-tighter  text-gray-600'><a href="#skills~">⮞SKILLS</a></li>
                     <li className='hover:underline  hover:decoration-yellow-600 underline-offset-4 -tracking-tighter  text-gray-600 py-2'><a href="#project">⮞PROJECTS</a></li>
                     <li className='hover:underline  hover:decoration-yellow-600 underline-offset-4 -tracking-tighter  text-gray-600'><a href="#resume">⮞RESUME</a></li>
                     <li className='hover:underline  hover:decoration-yellow-600 underline-offset-4 -tracking-tighter  text-gray-600 py-2'><a href="#contact">⮞CONTACT</a></li>

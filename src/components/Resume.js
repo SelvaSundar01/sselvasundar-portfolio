@@ -3,7 +3,7 @@ export default function Resume(){
    
     const config={
 
-        link:""
+        link:"https://drive.google.com/file/d/1boGKtMi4rnSrTWs8FkQgE3VDoXXWmA5N/view?usp=drive_link"
     }
 
     return <section id="resume" className="flex flex-col md:flex-row bg-primary px-10">
